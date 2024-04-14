@@ -1,3 +1,7 @@
 {
-    "deportes":[]
+  "deportes": [
+    { "nombre": "Tenis", "precio": "19990" },
+    { "nombre": "Handball", "precio": "12990" },
+    { "nombre": "Pintball", "precio": "18990" }
+  ]
 }
