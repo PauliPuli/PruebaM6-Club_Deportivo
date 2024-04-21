@@ -1,7 +1,1 @@
-{
-  "deportes": [
-    { "nombre": "Tenis", "precio": "19990" },
-    { "nombre": "Handball", "precio": "12990" },
-    { "nombre": "Pintball", "precio": "18990" }
-  ]
-}
+{"deportes":[{"nombre":"Tenis","precio":"19990"},{"nombre":"Handball","precio":"12990"},{"nombre":"Rayuela","precio":"8990"},{"nombre":"Futból","precio":"8990"}]}
