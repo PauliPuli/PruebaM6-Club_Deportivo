@@ -20,9 +20,9 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <div class="container">
-  <h1 class="my-5 text-center title"><i class="fa-solid fa-volleyball px-4"></i>Deportes<i class="fa-solid fa-basketball px-4"></i></h1>
+  <h1 class="my-4 text-center title mb-2"><strong>Deportes</strong><i class="fa-solid fa-volleyball px-4"></i><i class="fa-solid fa-basketball px-4"></i></h1>
 
-  <div action="/agregar" class="border rounded p-4 bg-light w-100 mx-auto">
+  <div action="/agregar" class="border rounded p-5 bg-light w-75 mx-auto">
     <div class="form-group row">
       <label class="col-sm-2 col-form-label">Nombre</label>
 
@@ -72,7 +72,7 @@
           <th scope="row">${i + 1}</th>
           <td>${d.nombre}</td>
           <td>${d.precio}</td>
-          <td>
+          <td class='text-center'>
             <button class="btn btn-outline-info mx-2" onclick='preEdit("${d.nombre}","${d.precio
           }")' data-toggle="modal" data-target="#exampleModal">Editar</button>
             <button class="btn btn-danger mx-2" onclick='eliminar("${d.nombre}")'>Eliminar</button>
@@ -138,7 +138,7 @@
           </div>
         </div>
 
-        <button class="btn btn-warning" onclick="edit()">Editar</button>
+        <button class="btn btn-success" onclick="edit()">Editar</button>
       </div>
     </div>
   </div>
